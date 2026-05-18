@@ -52,12 +52,8 @@ mlruns/
 
 # Local datasets and generated train/validation splits
 data/
-redimensionnement/**/*.png
-redimensionnement/**/*.jpg
-redimensionnement/**/*.jpeg
-redimensionnement/**/*.bmp
-redimensionnement/**/*.tif
-redimensionnement/**/*.tiff
+redimensionnement/Original_images/
+# (Allowing redimensionnement/Original_images_240x306/ to be tracked by Git LFS)
 
 # Generated tabular outputs
 rbc_features.csv
