@@ -1,0 +1,64 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local reports and office/autosave files
+*.docx
+*.pptx
+*.xlsx
+~$*
+
+# Local screenshots / captures
+Capture*.png
+Capture*.jpg
+Capture*.jpeg
+capture*.png
+capture*.jpg
+screenshot*.png
+Screenshot*.png
+*ecran*.png
+
+# Model checkpoints and heavy ML artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+# Local datasets and generated train/validation splits
+data/
+redimensionnement/**/*.png
+redimensionnement/**/*.jpg
+redimensionnement/**/*.jpeg
+redimensionnement/**/*.bmp
+redimensionnement/**/*.tif
+redimensionnement/**/*.tiff
+
+# Generated tabular outputs
+rbc_features.csv
