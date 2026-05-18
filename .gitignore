@@ -42,8 +42,7 @@ Screenshot*.png
 *ecran*.png
 
 # Model checkpoints and heavy ML artifacts
-*.pth
-*.pt
+
 *.ckpt
 *.onnx
 checkpoints/
